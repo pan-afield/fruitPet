@@ -1,0 +1,43 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"name": "index",
+		"style": {
+			"navigationBarTitleText": "天天萌宠"
+		}
+	}],
+	"subPackages": [{
+		"root": "pagesA",
+		"pages": [{
+			"path": "pet/pet",
+			"aliasPath": "/pet",
+			"name": "pet",
+			"style": {
+				"navigationBarTitleText": "天天萌宠",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}]
+	}, {
+		"root": "pagesB",
+		"pages": [{
+			"path": "farm/farm",
+			"aliasPath": "/farm",
+			"name": "farm",
+			"style": {
+				"navigationBarTitleText": "天天萌宠",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
